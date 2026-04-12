@@ -1,0 +1,57 @@
+# =============================================================================
+# PDFForge — .gitignore
+# =============================================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Virtual Environments ---
+.venv/
+venv/
+ENV/
+
+# --- Environment Files ---
+.env
+.env.local
+.env.*.local
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Node ---
+node_modules/
+.next/
+.turbo/
+out/
+
+# --- Testing ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# --- Docker ---
+docker-compose.override.yml
+
+# --- Temp Files ---
+*.tmp
+*.log
+/tmp/
+
+# --- Locks (keep pnpm-lock, discard package-lock) ---
+package-lock.json
