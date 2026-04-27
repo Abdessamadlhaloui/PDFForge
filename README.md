@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="docs/assets/logo.svg" alt="PDFForge Logo" width="80" height="80" />
-</p>
+
 
 <h1 align="center">PDFForge</h1>
 
